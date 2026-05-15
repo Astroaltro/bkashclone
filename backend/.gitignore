@@ -1,5 +1,11 @@
+# Dependencies
 node_modules/
-.env
-dist/
 
-git remote add origin https://github.com/Astroaltro/bkashclone.git
+# Logs
+*.log
+
+# Env files (Crucial for keeping your database/API keys secret)
+.env
+
+# Debug logs
+npm-debug.log*
